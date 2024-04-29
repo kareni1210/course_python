@@ -1,0 +1,9 @@
+my_string = 'this is a string'
+my_tuple = (5,)
+my_int = 5
+my_float = 5.4
+my_set = {1, 3, 7, 8}
+my_dictionary = {'key': 5, 'key2': 6}
+my_list = [[1, 2], 5, 8]
+my_complex = 5 + 2j
+print(my_list, my_int, my_tuple, my_float, my_string, my_dictionary, sep='\n')
