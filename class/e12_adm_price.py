@@ -8,4 +8,3 @@ group from the user,with one age entered on each line.
 The user will enter a blank line to indicate that there are no more guests in the group.
 Then your program should display the admission cost for the group with an appropriate message.
 """
-

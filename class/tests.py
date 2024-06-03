@@ -215,20 +215,50 @@ while x:
 
 ########################
 
-x = 45
+# x = 45
+#
+#
+# def outer_function(var1):
+#     y = 12
+#     a = var1
+#
+#     def inside_function():
+#         b = 17
+#         print(x, y, a, b)
+#     # print(b)
+#     inside_function()
+#
+#
+# # print(y)
+# outer_function(4)
+
+# 29/04/2024
+#########################
+
+# x = 0
+#
+#
+# def increment_by_n(n):
+#     global x  # Is better to try not using global 'cause it could be a problem for bigger programs
+#     x += n
+#     return x
+#
+#
+# print(increment_by_n(5))
+# print(x)
+
+########################
+#
+# x = 0
+# def increment_by_2n(n): return 2 * n
+#
+#
+# x += increment_by_2n(5)
+# print(5)
 
 
-def outer_function(var1):
-    y = 12
-    a = var1
+# print(*[1, 2, 3])  # Imprime los elementos
 
-    def inside_function():
-        b = 17
-        print(x, y, a, b)
-    # print(b)
-    inside_function()
+# days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
 
-
-# print(y)
-outer_function(4)
 

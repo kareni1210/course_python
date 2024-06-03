@@ -1,3 +1,5 @@
+import statistics
+
 """
 A pharmaceutical company wants to know whether an experimental drug affects systolic blood pressure.
 Fifteen randomly selected subjects were given the drug and, after sufficient time for the drug to have an impact,
@@ -13,3 +15,16 @@ THAT IS, IMITATE THE BEHAVIOUR OF THAT FUNCTION
 
 data = [172, 140, 123, 130, 115, 148, 108, 129, 137, 161, 123, 152, 133, 128, 142]
 
+s = statistics.stdev(data)
+print(f'The standard deviation is: {s}')
+x = statistics.mean(data)
+print(f'The x bar is: {x}')
+
+xb = sum(data) / len(data)
+
+
+def xbar(values):
+    return sum(values) / len(values)
+
+
+print(xbar(data))

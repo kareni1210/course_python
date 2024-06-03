@@ -17,5 +17,12 @@ It should work something like this:
 Try to solve this exercise without using any third-party libraries (without using pandas, for example).
 
 """
-
-
+# m1 = []
+# m2 = []
+#
+#
+#  def add(m1, m2):
+#      m3 = []
+#      i = 0
+#      for i in range(matr)
+#
